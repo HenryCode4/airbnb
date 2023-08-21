@@ -1,0 +1,18 @@
+'use client'
+
+interface Props {
+    children: React.ReactNode;
+}
+
+const Container: React.FC<Props> = ({
+    children
+}) => {
+  return (
+    <div className="max-e-[2520px] mx-auto xl:px-20 md:px-10 sm:px-2">
+        
+        {children}
+    </div>
+  )
+}
+
+export default Container
